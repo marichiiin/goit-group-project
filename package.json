@@ -1,0 +1,30 @@
+{
+  "name": "team-3-group-project",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://arletolentin.github.io/team-3-group-project",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /team-3-group-project/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arletolentin/team-3-group-project.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arletolentin/team-3-group-project/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
