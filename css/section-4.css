@@ -22,13 +22,19 @@ a:hover {
     padding: 0 15px;
     max-width: 428px;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width: 500px) {
     .our-products {
     max-width: 728px;
     }
+    .our-products-desc-wrapper {
+        padding: 32px 20px;
+    }
+    .swiper-slide {
+        width: 270px !important;
+    }
   
 }
-@media screen and (min-width:1158px) {
+@media screen and (min-width:768px) {
     .our-products {
     max-width:  1158px;
     }
@@ -41,8 +47,6 @@ a:hover {
    
 }
     
-
-
 .our-products-title {
     color: #111;
     text-align: center;
